@@ -1,0 +1,31 @@
+.button {
+  display: block;
+  position: relative;
+  left: -10%;
+  width: 130px;
+  height: 40px;
+  max-width: 130px;
+  max-height: 40px;
+  text-align: center;
+  font-size: 0.8em;
+  text-decoration: none;
+
+  border-radius: 30px;
+  background-color: #1d84b5;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: #1d84b5;
+  border: 1px solid #1d84b5;
+}
+
+@media (max-width: 769px) {
+  .button {
+    left: 50%;
+    transform: translate(-50%);
+  }
+}

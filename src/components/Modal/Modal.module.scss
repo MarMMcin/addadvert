@@ -1,0 +1,59 @@
+.wrapper {
+  padding: 70px 80px 50px;
+  left: 0;
+  top: 5%;
+  right: 0;
+  margin: 0 auto;
+  width: 30vw;
+
+  min-height: 60vh;
+  background-color: white;
+  box-shadow: 0 20px 40px -5px rgba(#1d84b5, 0.5);
+  position: fixed;
+  color: #1d84b5;
+}
+.closeButton {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+  color: #1d84b5;
+}
+i {
+  font-size: 30px;
+}
+@media (max-width: 1424px) {
+  .wrapper {
+    width: 60vw;
+  }
+}
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 769px) {
+  .wrapper {
+    padding: 10px;
+    width: 60vw;
+    max-height: 60vh;
+    width: 80vw;
+  }
+  .closeButton {
+    right: 10px;
+    top: 10px;
+  }
+  i {
+    font-size: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .wrapper {
+    max-height: 80vh;
+  }
+}
